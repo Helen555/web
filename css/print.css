@@ -1,0 +1,14 @@
+﻿body {
+    margin: auto;
+}
+
+#all{
+    /*border-collapse: collapse;*/
+}
+
+#top, #logo, #contact, #leftblock, #menu, #counts, #rightblock {
+    display: none;
+}
+
+#content {
+}

@@ -1,0 +1,125 @@
+﻿body {
+    margin: auto;
+}
+#all{
+    /*border-collapse: collapse;*/
+    background:#009999;
+    width: 70%;
+    margin: auto;
+    color:#ffffff;
+    overflow: hidden;
+}
+/* ---------------- */
+#top {
+    background:#006666;
+    text-align: center;
+}
+#logo { 
+    background:#006666;
+    padding: 10px;
+    float:left;
+}
+#contact {
+    width: 400px;
+    text-align:right;
+    margin-left:auto;
+}
+/* ---------------- */
+/* ---------------- */
+#leftblock {
+    width: 250px;
+    float:left;
+    overflow: hidden;
+}
+#menu {
+    vertical-align: top;
+    overflow: hidden;
+}
+
+#menu ul {
+    padding-right: 10px;
+}
+
+#menu a {
+    transition: background-color 0.1s ease;
+    background:#333333;
+    display: block;
+    color: #ffffff;
+    height: 18px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+}
+#menu a:hover {
+    transition: background-color 0.1s ease;
+    transition: color 0.1s ease;
+    background:#ffffff;
+    color:black;
+}
+.current a{
+    margin-left: -10px;
+}
+
+#menu li:hover{
+    margin-left: -10px;
+}
+#menu li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#copyright{    
+    text-align: center;
+    /*   position:absolute;
+        bottom:0px;*/
+    /*  position: fixed;  Фиксированное положение  
+        position:absolute;
+        bottom:0px;*/
+    /*  position: fixed;  Фиксированное положение 
+        bottom: 0;  Левый нижний угол 
+        padding: 10px;  Поля вокруг текста 
+        width: 13%;  Ширина слоя */
+
+}
+#copyright #clock{
+    display: none;
+}
+#copyright .datetime #clock{
+    display: block;
+}
+#copyright .datetime #date{
+    display: none;
+}
+#copyright input{
+    border: none;
+    background: none;
+    color: white;    
+    text-align: center;
+}
+table td{
+    border: 1px solid #333333;
+    background:#333333
+}
+
+#counts {
+    text-align: center;
+    overflow: hidden;
+}
+#content {
+    min-width: 10%;
+    overflow: hidden;
+}
+/* ---------------- */
+/* ---------------- */
+#rightblock {
+    width: 200px;
+    float: right;
+}
+/* ---------------- */
+
+#auth_block{
+  padding: 0px 40px;
+}
+#auth_block a{
+  color: white;
+}
